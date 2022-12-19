@@ -8,7 +8,6 @@ import { movieAction } from "../redux/action/movieAction";
 import Banner from "../components/Banner";
 import MovieSlide from "../components/MovieSlide";
 import MoonLoader from "react-spinners/MoonLoader";
-import Footer from "../components/Footer";
 
 const Home = () => {
   const dispatch = useDispatch();
@@ -35,7 +34,7 @@ const Home = () => {
 
   return (
     <div>
-      {popularMovies.results && <Banner movie={popularMovies.results[6]} />}
+      {popularMovies.results && <Banner movie={popularMovies.results[3]} />}
 
       <div className="slide-container">
         <h2>Popular Movie</h2>
@@ -45,8 +44,6 @@ const Home = () => {
         <h2>Upcoming Movie</h2>
         <MovieSlide movie={upcomingMovies} />
       </div>
-
-      <Footer />
     </div>
   );
 };

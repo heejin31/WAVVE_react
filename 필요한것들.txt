@@ -52,8 +52,9 @@ https://www.davidhu.io/react-spinners/
 $ yarn add react-spinners
 
 
-
-
+==Redux Toolkit == 사용시 데브툴과 리덕스, 미들웨어 사용안해도 됨
+https://redux-toolkit.js.org/
+$yarn add @reduxjs/toolkit
 
 
 

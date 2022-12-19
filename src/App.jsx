@@ -6,6 +6,7 @@ import Home from "./pages/Home";
 import MovieDetail from "./pages/MovieDetail";
 import Movies from "./pages/Movies";
 import Navigation from "./components/Navigation";
+import Footer from "./components/Footer";
 
 function App() {
 	return (
@@ -16,6 +17,7 @@ function App() {
 				<Route path="/movies" element={<Movies />}></Route>
 				<Route path="/movies/:id" element={<MovieDetail />}></Route>
 			</Routes>
+			<Footer />
 		</div>
 	);
 }
