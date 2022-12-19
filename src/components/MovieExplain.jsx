@@ -6,7 +6,7 @@ const MovieExplain = ({ item, videoId }) => {
   return (
     <div>
       <Container>
-        <Row>
+        <Row className="explain_wrap">
           <Col>
             <img
               className="detail-img"
