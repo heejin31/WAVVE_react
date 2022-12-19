@@ -40,6 +40,10 @@ body {
 }
 
 .navTop {
+  .container-fluid {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
   .nav-item {
     color: white;
     margin-left: 20px;
